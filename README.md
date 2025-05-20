@@ -91,6 +91,18 @@
                             <label for="salutationColumn" class="form-label">Salutation Column (Optional)</label>
                             <input type="text" class="form-control" id="salutationColumn" placeholder="e.g., D">
                         </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="actionColumn" class="form-label">Action Column</label>
+                                <input type="text" class="form-control" id="actionColumn" placeholder="e.g. E" value="E">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="receiverNameColumn" class="form-label">Receiver Name Column</label>
+                                <input type="text" class="form-control" id="receiverNameColumn" placeholder="e.g. F" value="F">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button id="verifyColumnsButton" class="btn btn-primary">Verify Columns</button>
